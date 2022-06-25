@@ -1,0 +1,335 @@
+#{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+  height: 100vh;  
+  width: 100%;
+  
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, rgb(0, 0, 0),#279dbf);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav .head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .head span{
+    color:rgb(205, 19, 87)
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 14px 16px;
+}
+nav ul li a:hover{
+    color: rgb(238, 8, 69);
+}
+.button {
+    background-color: rgb(255, 0, 76);
+    border: 1px solid transparent;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .button:hover{
+    color: rgb(255, 47, 0);
+    background-color: green;
+    transform: scale(1.2);
+  }
+  .header2{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header2 h5{
+    color: rgb(187, 20, 228);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .header2 h1{
+    color: white;
+    font-weight: bold;
+    font-size: 75px;
+    margin: 15px 0px 15px;
+  }
+  .header2 h1 span{
+    color: rgb(219, 27, 129);
+  }
+  .header2 h4{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .searchbox form{
+    position: relative;
+    width: 400px;
+    max-width: 100%;
+  }
+  .searchbox form input[type=email] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(171, 28, 71);
+  width: 100%;
+  background: #f1f1f1;
+  border-radius: 30px;
+  outline: none;
+  }
+  .searchbox form input[type=submit]{
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  padding: 5px 14px;
+  background: rgb(236, 63, 141);
+  color: white;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  top: 6px;
+  right: -16px;
+}
+
+.mainpic img{
+  height: 582px;
+  width: 100%;
+  flex-basis: 50%;
+  transform: translateX(80%);
+  
+}
+.about{
+  width: 100%;
+  background-color: black;
+  padding: 100px 0px; 
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.about img{
+  height: 450px;
+  width: 450px;
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+   color: white;
+   text-transform: capitalize;
+   margin-bottom: 25px;
+   font-size: 22px;
+   letter-spacing: 2px;
+}
+.about-text h5 span{
+color: rgb(225, 21, 102);
+}
+.about-text p{
+  color: white;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+button{
+  background-color: rgb(255, 0, 76);
+  border: 2px solid transparent;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+button:hover{
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid rgb(255, 0, 76);
+}
+.service{
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title h2{
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card i{
+  font-size: 50px;
+  text-align: center;
+  margin: 25px 0px;
+  color: rgb(205, 22, 86);
+  display: block;
+}
+.card h5{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p{
+  color: rgb(185, 43, 168);
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .pra .button{
+  background-color: rgb(255, 0, 76);
+  border: 2px solid transparent;
+  color: white;
+  padding: 9px 22px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.card .pra .button:hover{
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid rgb(255, 0, 76);
+}
+.contact-me{
+  width: 100%;
+  height: 290px;
+  display: flex;
+  background: #191919;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-me p{
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 25px;
+}
+.contact-me .button-two{
+  background-color: rgb(255, 0, 76);
+  border: 2px solid transparent;
+  color: white;
+  padding: 9px 22px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.contact-me .button-two:hover{
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid rgb(255, 0, 76);
+}
+footer{
+   position: relative;
+   width: 100%;
+   height: 400px;
+   background: #101010;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+footer p:nth-child(1){
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+footer p:nth-child(2){
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 27px;
+}
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 0, 76);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a:hover{
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+.end{
+  position: absolute;
+  color: rgb(255, 0, 76);
+  bottom: 35px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
